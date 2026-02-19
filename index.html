@@ -67,9 +67,13 @@
         }
 
     </style>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 </head>
 
 <body>
+    <div id="particles-js"></div>
 
     <div class="container">
         <h1>Rohit AI Creator 🚀</h1>
@@ -94,6 +98,30 @@
             © 2026 Rohit | Premium AI Website 💎
         </footer>
     </div>
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    color: { value: "#ffffff" },
+    shape: { type: "circle" },
+    opacity: { value: 0.5 },
+    size: { value: 3 },
+    move: { speed: 3 }
+  }
+});
+</script>
+
+<style>
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0f2027;
+  z-index: -1;
+}
+</style>
 
 </body>
 </html>
